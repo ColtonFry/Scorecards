@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <h1><br><center>Scorecard</br></h1>
     <h2><br><center>Golf</br></h2>
         <html>
         <style>
             section.grid-container {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-row: repeat(3, 1fr);
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-row: repeat(5, 1fr);
                 background-color: purple;
                 padding: 10px;
             }
@@ -23,38 +22,48 @@
                 Player
             </div>
             <div class="grid-item">
-                Round 1
+                Front 9
             </div>
             <div class="grid-item">
-                Round 2
+                Rear 9
+            </div>
+            <div class="grid-item">
+                Total 18
+            </div>
+            <div class="grid-item">
+                Winner
             </div>
             <div class="grid-item">
                 Jeff
             </div>
             <div class="grid-item">
-                3
+                +6
             </div>
             <div class="grid-item">
-                5
+                -1
+            </div>
+            <div class="grid-item">
+                +5
+            </div>
+            <div class="grid-item">
+                Winner
             </div>
             <div class="grid-item">
                 Dan
             </div>
             <div class="grid-item">
-                4
+                +5
             </div>
             <div class="grid-item">
-                5
+                +2
             </div>
             <div class="grid-item">
-                Sam
+                +7
             </div>
             <div class="grid-item">
-                7
+                Loser
             </div>
-            <div class="grid-item">
-                5
-            </div>
+
         </section>
 
         <!DOCTYPE html>
@@ -125,3 +134,72 @@
                     </div>
 
                 </section>
+
+                <!DOCTYPE html>
+                <h1><br><center>Scorecard</br></h1>
+                    <h2><br><center>Swimming</br></h2>
+                        <html>
+                        <style>
+                            section.grid-container {
+                                display: grid;
+                                grid-template-columns: repeat(5, 1fr);
+                                grid-template-row: repeat(5, 1fr);
+                                background-color: purple;
+                                padding: 10px;
+                            }
+                            section div.grid-item {
+                                background-color: rgba(255, 255, 255, 0.8);
+                                border: 1px solid rgba(0, 0, 0, 0.8);
+                                padding: 5px;
+                                font-size: 1.2em;
+                                text-align: center;
+                            }
+                        </style>
+                        <section class="grid-container">
+                            <div class="grid-item">
+                                Team
+                            </div>
+                            <div class="grid-item">
+                                15Mins
+                            </div>
+                            <div class="grid-item">
+                                30Mins
+                            </div>
+                            <div class="grid-item">
+                                45Mins
+                            </div>
+                            <div class="grid-item">
+                                60Mins
+                            </div>
+                            <div class="grid-item">
+                                Gold
+                            </div>
+                            <div class="grid-item">
+                                12.6
+                            </div>
+                            <div class="grid-item">
+                                11.9
+                            </div>
+                            <div class="grid-item">
+                                13.5
+                            </div>
+                            <div class="grid-item">
+                                12.2
+                            </div>
+                            <div class="grid-item">
+                                Silver
+                            </div>
+                            <div class="grid-item">
+                                12.0
+                            </div>
+                            <div class="grid-item">
+                                16.0
+                            </div>
+                            <div class="grid-item">
+                                11.2
+                            </div>
+                            <div class="grid-item">
+                                11.6
+                            </div>
+
+                        </section>

@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <body>
-  <h2 style="color: navy;">Scorecard Golf</h2>
+  <h2 style="color: navy;">Golf Scorecard</h2>
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-    enim ad <span class="highlight">minim veniam</span>, quis 
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-    commodo consequat. 
+     
+   <table class="sample_table">
+  <tr>
+     <th>Player</th>
+  </tr>
+  <tr class="gray_row">
+     <td>Jeff</td>
+  </tr>
+  <tr>
+     <td>Ron</td>
+  </tr>
+  <tr class="gray_row">
+     <td>Dave</td>
+  </tr>
+  <tr>
+     <td>Sam</td>
+  </tr>
+  <tr class="gray_row">
+     <td>Adam</td>
+  </tr>
+</table>
 
-    Duis aute irure dolor in <span class="highlight">reprehenderit 
-    in voluptate</span> velit esse cillum dolore eu fugiat nulla 
-    pariatur. 
-  </body>
-</html>
+ <table class="sample_table">
+  <tr>
+     <th>Player</th>
+  </tr>
+  <tr class="gray_row">
+     <td>Jeff</td>
+  </tr>
+  <tr>
+     <td>Ron</td>
+  </tr>
+  <tr class="gray_row">
+     <td>Dave</td>
+  </tr>
+  <tr>
+     <td>Sam</td>
+  </tr>
+  <tr class="gray_row">
+     <td>Adam</td>
+  </tr>
+</table>
+ 
+ 
